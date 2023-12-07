@@ -1,0 +1,32 @@
+.Header_payment_option_holder h3{
+    margin-left: 5px;
+  }
+  .tabs #tab{
+      width: 133px;
+      height: 30px;
+      background: none;
+      border: none;
+  }
+  .tabs #clicked {
+      width: 133px;
+      height: 30px;
+      background: none;
+      border: none;
+      border-top: 1px solid  rgb(50, 49, 49);
+      border-right: 1px solid rgb(50, 49, 49);
+      border-bottom: 3px solid rgb(36, 210, 94);
+      /* Add a transition effect for smooth color change */
+      transition: background-color 0.5s ease;
+      /* Change the cursor to a pointer to improve UX */
+      cursor: pointer;
+      /* Add some padding for better appearance */
+      padding: 10px;
+      /* Add a hover effect */
+      &:hover {
+          background-color: #f2f2f2;
+      }
+      /* Add an active effect */
+      &:active {
+          background-color: #ddd;
+      }
+  }
