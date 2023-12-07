@@ -1,0 +1,29 @@
+.Payment_option_holder{
+    height: 600px;
+    width:400px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+.Payment_tabs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+.Payment_tabs h4{
+    padding: 5px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.Payment_tabs h4:hover {
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    text-decoration: underline;
+    text-decoration-color: #45a049;
+  }

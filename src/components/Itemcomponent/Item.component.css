@@ -1,0 +1,32 @@
+.Item_info_holder{
+    height: 450px;
+    width:400px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+.Item_info_holder h4{
+   margin: 0px 10px;
+}
+.image_container{
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 300px;
+    width: 380;
+    background-color: brown;
+    border-radius: 10px 10px 0 0;
+}
+.product_description{
+    height: 70px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 30px;
+    width: 380;
+    background-color: rgb(117, 190, 227);
+    padding: 10px;
+}
+.item_detail{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
